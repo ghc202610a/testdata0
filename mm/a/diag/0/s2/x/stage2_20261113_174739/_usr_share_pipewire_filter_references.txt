@@ -1,0 +1,32 @@
+/usr/share/pipewire/filter-chain/demonic.conf:1:# filter-chain example config file for PipeWire version "1.6.2" #
+/usr/share/pipewire/filter-chain/demonic.conf:4:# ~/.config/pipewire/filter-chain.conf.d/
+/usr/share/pipewire/filter-chain/demonic.conf:7:  { name = libpipewire-module-filter-chain
+/usr/share/pipewire/filter-chain/demonic.conf:55:                node.name        = "effect_input.filter-chain-demonic"
+/usr/share/pipewire/filter-chain/demonic.conf:59:                node.name        = "effect_output.filter-chain-demonic"
+/usr/share/pipewire/filter-chain/sink-dolby-pro-logic-ii.conf:4:# ~/.config/pipewire/filter-chain.conf.d/
+/usr/share/pipewire/filter-chain/sink-dolby-pro-logic-ii.conf:9:      "name": "libpipewire-module-filter-chain",
+/usr/share/pipewire/filter-chain/sink-dolby-surround.conf:4:# ~/.config/pipewire/filter-chain.conf.d/
+/usr/share/pipewire/filter-chain/sink-dolby-surround.conf:9:      "name": "libpipewire-module-filter-chain",
+/usr/share/pipewire/filter-chain/sink-eq6.conf:4:# ~/.config/pipewire/filter-chain.conf.d/
+/usr/share/pipewire/filter-chain/sink-eq6.conf:7:    { name = libpipewire-module-filter-chain
+/usr/share/pipewire/filter-chain/sink-make-LFE.conf:1:# An example filter chain that makes a stereo sink that mixes
+/usr/share/pipewire/filter-chain/sink-make-LFE.conf:7:    { name = libpipewire-module-filter-chain
+/usr/share/pipewire/filter-chain/sink-matrix-spatialiser.conf:4:# ~/.config/pipewire/filter-chain.conf.d/
+/usr/share/pipewire/filter-chain/sink-matrix-spatialiser.conf:10:    { name = libpipewire-module-filter-chain
+/usr/share/pipewire/filter-chain/sink-mix-FL-FR.conf:1:# An example filter chain that makes a stereo sink that mixes
+/usr/share/pipewire/filter-chain/sink-mix-FL-FR.conf:5:# ~/.config/pipewire/filter-chain.conf.d/
+/usr/share/pipewire/filter-chain/sink-mix-FL-FR.conf:8:    { name = libpipewire-module-filter-chain
+/usr/share/pipewire/filter-chain/sink-upmix-5.1-filter.conf:4:# ~/.config/pipewire/filter-chain.conf.d/
+/usr/share/pipewire/filter-chain/sink-upmix-5.1-filter.conf:7:    {   name = libpipewire-module-filter-chain
+/usr/share/pipewire/filter-chain/sink-virtual-surround-5.1-kemar.conf:4:# ~/.config/pipewire/filter-chain.conf.d/
+/usr/share/pipewire/filter-chain/sink-virtual-surround-5.1-kemar.conf:9:    { name = libpipewire-module-filter-chain
+/usr/share/pipewire/filter-chain/sink-virtual-surround-7.1-hesuvi.conf:4:# ~/.config/pipewire/filter-chain.conf.d/
+/usr/share/pipewire/filter-chain/sink-virtual-surround-7.1-hesuvi.conf:9:    { name = libpipewire-module-filter-chain
+/usr/share/pipewire/filter-chain/source-duplicate-FL.conf:1:# An example filter chain that makes a source that duplicates the FL channel
+/usr/share/pipewire/filter-chain/source-duplicate-FL.conf:5:# ~/.config/pipewire/filter-chain.conf.d/
+/usr/share/pipewire/filter-chain/source-duplicate-FL.conf:8:    { name = libpipewire-module-filter-chain
+/usr/share/pipewire/filter-chain/source-rnnoise.conf:4:# ~/.config/pipewire/filter-chain.conf.d/
+/usr/share/pipewire/filter-chain/source-rnnoise.conf:9:    { name = libpipewire-module-filter-chain
+/usr/share/pipewire/filter-chain.conf:5:# Place filter fragments in /etc/pipewire/filter-chain.conf.d/
+/usr/share/pipewire/filter-chain.conf:6:# for system-wide changes or in ~/.config/pipewire/filter-chain.conf.d/
+/usr/share/pipewire/filter-chain.conf:9:# Run the filters with pipewire -c filter-chain.conf

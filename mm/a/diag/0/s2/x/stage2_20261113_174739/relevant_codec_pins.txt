@@ -1,0 +1,73 @@
+244:Node 0x18 [Pin Complex] wcaps 0x40058f: Stereo Amp-In Amp-Out
+245-  Control: name="Rear Mic Boost Volume", index=0, device=0
+246-    ControlAmp: chs=3, dir=In, idx=0, ofs=0
+247-  Amp-In caps: ofs=0x00, nsteps=0x03, stepsize=0x27, mute=0
+248-  Amp-In vals:  [0x03 0x03]
+249-  Amp-Out caps: ofs=0x00, nsteps=0x00, stepsize=0x00, mute=1
+250-  Amp-Out vals:  [0x80 0x80]
+251-  Pincap 0x00003734: IN OUT Detect
+252-    Vref caps: HIZ 50 GRD 80 100
+253-  Pin Default 0x01a19040: [Jack] Mic at Ext Rear
+254-    Conn = 1/8, Color = Pink
+255-    DefAssociation = 0x4, Sequence = 0x0
+256-  Pin-ctls: 0x24: IN VREF_80
+257-  Unsolicited: tag=02, enabled=1
+258-  Power states:  D0 D1 D2 D3 EPSS
+259-  Power: setting=D0, actual=D0
+260-  Connection: 5
+261-     0x0c* 0x0d 0x0e 0x0f 0x26
+262:Node 0x19 [Pin Complex] wcaps 0x40058f: Stereo Amp-In Amp-Out
+263-  Control: name="Front Mic Boost Volume", index=0, device=0
+264-    ControlAmp: chs=3, dir=In, idx=0, ofs=0
+265-  Amp-In caps: ofs=0x00, nsteps=0x03, stepsize=0x27, mute=0
+266-  Amp-In vals:  [0x00 0x00]
+267-  Amp-Out caps: ofs=0x00, nsteps=0x00, stepsize=0x00, mute=1
+268-  Amp-Out vals:  [0x80 0x80]
+269-  Pincap 0x0000373c: IN OUT HP Detect
+270-    Vref caps: HIZ 50 GRD 80 100
+271-  Pin Default 0x02a19050: [Jack] Mic at Ext Front
+272-    Conn = 1/8, Color = Pink
+273-    DefAssociation = 0x5, Sequence = 0x0
+274-  Pin-ctls: 0x24: IN VREF_80
+275-  Unsolicited: tag=03, enabled=1
+276-  Power states:  D0 D1 D2 D3 EPSS
+277-  Power: setting=D0, actual=D0
+278-  Connection: 5
+279-     0x0c* 0x0d 0x0e 0x0f 0x26
+280:Node 0x1a [Pin Complex] wcaps 0x40058f: Stereo Amp-In Amp-Out
+281-  Control: name="Line Boost Volume", index=0, device=0
+282-    ControlAmp: chs=3, dir=In, idx=0, ofs=0
+283-  Amp-In caps: ofs=0x00, nsteps=0x03, stepsize=0x27, mute=0
+284-  Amp-In vals:  [0x00 0x00]
+285-  Amp-Out caps: ofs=0x00, nsteps=0x00, stepsize=0x00, mute=1
+286-  Amp-Out vals:  [0x80 0x80]
+287-  Pincap 0x00003734: IN OUT Detect
+288-    Vref caps: HIZ 50 GRD 80 100
+289-  Pin Default 0x0181304f: [Jack] Line In at Ext Rear
+290-    Conn = 1/8, Color = Blue
+291-    DefAssociation = 0x4, Sequence = 0xf
+292-  Pin-ctls: 0x20: IN VREF_HIZ
+293-  Unsolicited: tag=04, enabled=1
+294-  Power states:  D0 D1 D2 D3 EPSS
+295-  Power: setting=D0, actual=D0
+296-  Connection: 5
+297-     0x0c* 0x0d 0x0e 0x0f 0x26
+298:Node 0x1b [Pin Complex] wcaps 0x40058f: Stereo Amp-In Amp-Out
+299-  Control: name="Headphone Playback Switch", index=0, device=0
+300-    ControlAmp: chs=3, dir=Out, idx=0, ofs=0
+301-  Amp-In caps: ofs=0x00, nsteps=0x03, stepsize=0x27, mute=0
+302-  Amp-In vals:  [0x00 0x00]
+303-  Amp-Out caps: ofs=0x00, nsteps=0x00, stepsize=0x00, mute=1
+304-  Amp-Out vals:  [0x80 0x80]
+305-  Pincap 0x0001373c: IN OUT HP EAPD Detect
+306-    Vref caps: HIZ 50 GRD 80 100
+307-  EAPD 0x2: EAPD
+308-  Pin Default 0x02214020: [Jack] HP Out at Ext Front
+309-    Conn = 1/8, Color = Green
+310-    DefAssociation = 0x2, Sequence = 0x0
+311-  Pin-ctls: 0xc0: OUT HP VREF_HIZ
+312-  Unsolicited: tag=01, enabled=1
+313-  Power states:  D0 D1 D2 D3 EPSS
+314-  Power: setting=D0, actual=D0
+315-  Connection: 5
+316-     0x0c 0x0d 0x0e 0x0f* 0x26

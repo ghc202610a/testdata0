@@ -1,0 +1,63 @@
+PipeWire 'pipewire-0' [1.6.2, tt@ku36, cookie:2518987662]
+ └─ Clients:
+        33. WirePlumber                         [1.6.2, tt@ku36, pid:2283]
+        37. pipewire                            [1.6.2, tt@ku36, pid:2285]
+        40. WirePlumber [export]                [1.6.2, tt@ku36, pid:2283]
+        58. kwin_wayland                        [1.6.2, tt@ku36, pid:8192]
+        59. libcanberra                         [1.6.2, tt@ku36, pid:8279]
+        60.                                     [1.6.2, tt@ku36, pid:8279]
+        61. xdg-desktop-portal                  [1.6.2, tt@ku36, pid:8576]
+        62. haruna                              [1.6.2, tt@ku36, pid:8831]
+        68. plasmashell                         [1.6.2, tt@ku36, pid:8365]
+        69. libcanberra                         [1.6.2, tt@ku36, pid:8365]
+        70.                                     [1.6.2, tt@ku36, pid:8365]
+        78. System Settings                     [1.6.2, tt@ku36, pid:15270]
+        81. speech-dispatcher-dummy             [1.6.2, tt@ku36, pid:18138]
+        83. KWin                                [1.6.2, tt@ku36, pid:8192]
+       100. wpctl                               [1.6.2, tt@ku36, pid:29935]
+       107. Chromium input                      [1.6.2, tt@ku36, pid:14794]
+       121. libcanberra                         [1.6.2, tt@ku36, pid:15270]
+
+Audio
+ ├─ Devices:
+ │      48. alsa_card.pci-0000_0a_00.4          [alsa]
+ │  
+ ├─ Sinks:
+ │  *   55. alsa_output.pci-0000_0a_00.4.analog-stereo [vol: 1.00]
+ │  
+ ├─ Sources:
+ │  *   56. alsa_input.pci-0000_0a_00.4.analog-stereo [vol: 1.00]
+ │  
+ ├─ Filters:
+ │  
+ └─ Streams:
+        63. haruna                                                      
+             64. output_FL       > ALC1220 Analog:playback_FL	[init]
+             65. output_FR       > ALC1220 Analog:playback_FR	[init]
+        80.                                                             
+             76. input_FR        < ALC1220 Analog:capture_FR	[active]
+            104. monitor_FR     
+            111. input_FL        < ALC1220 Analog:capture_FL	[active]
+            116. monitor_FL     
+       115.                                                             
+             79. monitor_FL     
+             86. monitor_FR     
+             92. input_FL        < ALC1220 Analog:monitor_FL	[active]
+            126. input_FR        < ALC1220 Analog:monitor_FR	[active]
+       131. speech-dispatcher-dummy                                     
+            102. output_FR       > ALC1220 Analog:playback_FR	[init]
+            110. output_FL       > ALC1220 Analog:playback_FL	[init]
+
+Video
+ ├─ Devices:
+ │  
+ ├─ Sinks:
+ │  
+ ├─ Sources:
+ │  
+ ├─ Filters:
+ │  
+ └─ Streams:
+
+Settings
+ └─ Default Configured Devices:

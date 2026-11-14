@@ -1,0 +1,12 @@
+* filter-chain.service - PipeWire filter chain daemon
+     Loaded: loaded (/usr/lib/systemd/user/filter-chain.service; enabled; preset: enabled)
+     Active: active (running) since Fri 2026-11-13 12:19:42 PST; 5h 27min ago
+ Invocation: 0bdcbc295500436a8950147d1522a0d1
+   Main PID: 2284 (pipewire)
+      Tasks: 2 (limit: 70901)
+     Memory: 816K (peak: 2.2M)
+        CPU: 14ms
+     CGroup: /user.slice/user-1000.slice/user@1000.service/session.slice/filter-chain.service
+             `-2284 /usr/bin/pipewire -c filter-chain.conf
+
+Nov 13 12:19:42 ku36 systemd[2240]: Started filter-chain.service - PipeWire filter chain daemon.

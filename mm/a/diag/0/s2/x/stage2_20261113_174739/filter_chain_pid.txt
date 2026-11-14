@@ -1,0 +1,1 @@
+2284 /usr/bin/pipewire -c filter-chain.conf

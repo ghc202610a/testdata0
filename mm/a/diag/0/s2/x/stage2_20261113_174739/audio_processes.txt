@@ -1,0 +1,4 @@
+   2276    2240 tt       Fri Nov 13 12:19:41 2026 S<sl /usr/bin/pipewire
+   2283    2240 tt       Fri Nov 13 12:19:41 2026 S<sl /usr/bin/wireplumber
+   2284    2240 tt       Fri Nov 13 12:19:41 2026 Ssl  /usr/bin/pipewire -c filter-chain.conf
+   2285    2240 tt       Fri Nov 13 12:19:41 2026 S<Lsl /usr/bin/pipewire-pulse
