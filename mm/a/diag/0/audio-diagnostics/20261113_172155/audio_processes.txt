@@ -1,0 +1,6 @@
+   2276    2240 tt       S<sl pipewire        /usr/bin/pipewire
+   2283    2240 tt       S<sl wireplumber     /usr/bin/wireplumber
+   2284    2240 tt       Ssl  pipewire        /usr/bin/pipewire -c filter-chain.conf
+   2285    2240 tt       S<Lsl pipewire-pulse /usr/bin/pipewire-pulse
+  14794   12805 tt       Sl+  chrome          /snap/chromium/3569/usr/lib/chromium-browser/chrome --type=utility --utility-sub-type=audio.mojom.AudioService --lang=en-US --service-sandbox-type=none --crashpad-handler-pid=12886 --enable-crash-reporter=,snap --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,5629319948488004039,363891710905281001,524288 --field-trial-handle=3,i,14977191551461394096,243806050063046994,262144 --disable-features=TFLiteLanguageDetectionEnabled --variations-seed-version --pseudonymization-salt-handle=7,i,1011509191959354801,12932923309203553010,4 --trace-process-track-uuid=3190709042534382434
+  28664   28661 tt       S+   tee             tee -a /home/tt/audio-diagnostics/20261113_172155/summary.txt

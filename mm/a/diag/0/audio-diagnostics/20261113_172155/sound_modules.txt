@@ -1,0 +1,20 @@
+snd_seq_dummy          12288  0
+snd_hrtimer            12288  1
+snd_hda_codec_alc882    20480  1
+snd_hda_codec_realtek_lib    65536  1 snd_hda_codec_alc882
+snd_hda_codec_generic   126976  2 snd_hda_codec_realtek_lib,snd_hda_codec_alc882
+snd_hda_intel          65536  1
+snd_hda_codec         212992  4 snd_hda_codec_generic,snd_hda_intel,snd_hda_codec_realtek_lib,snd_hda_codec_alc882
+snd_hda_core          151552  4 snd_hda_codec_generic,snd_hda_intel,snd_hda_codec,snd_hda_codec_realtek_lib
+snd_intel_dspcfg       45056  1 snd_hda_intel
+snd_intel_sdw_acpi     16384  1 snd_intel_dspcfg
+snd_hwdep              24576  1 snd_hda_codec
+snd_pcm               212992  3 snd_hda_intel,snd_hda_codec,snd_hda_core
+snd_seq_midi           24576  0
+snd_seq_midi_event     16384  1 snd_seq_midi
+snd_rawmidi            57344  1 snd_seq_midi
+snd_seq               126976  9 snd_seq_midi,snd_seq_midi_event,snd_seq_dummy
+snd_seq_device         16384  3 snd_seq,snd_seq_midi,snd_rawmidi
+snd_timer              53248  3 snd_seq,snd_hrtimer,snd_pcm
+snd                   147456  14 snd_hda_codec_generic,snd_seq,snd_seq_device,snd_hwdep,snd_hda_intel,snd_hda_codec,snd_timer,snd_hda_codec_realtek_lib,snd_pcm,snd_rawmidi
+soundcore              16384  1 snd

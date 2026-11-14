@@ -1,0 +1,399 @@
+    PID    PPID USER     STAT COMMAND         COMMAND
+      1       0 root     Ss   systemd         /sbin/init
+      2       0 root     S    kthreadd        [kthreadd]
+      3       2 root     S    pool_workqueue_ [pool_workqueue_release]
+      4       2 root     I<   kworker/R-rcu_g [kworker/R-rcu_gp]
+      5       2 root     I<   kworker/R-sync_ [kworker/R-sync_wq]
+      6       2 root     I<   kworker/R-kvfre [kworker/R-kvfree_rcu_reclaim]
+      7       2 root     I<   kworker/R-slub_ [kworker/R-slub_flushwq]
+      8       2 root     I<   kworker/R-netns [kworker/R-netns]
+     10       2 root     I<   kworker/0:0H-kb [kworker/0:0H-kblockd]
+     12       2 root     I    kworker/u48:0-i [kworker/u48:0-ipv6_addrconf]
+     13       2 root     I<   kworker/R-mm_pe [kworker/R-mm_percpu_wq]
+     14       2 root     S    ksoftirqd/0     [ksoftirqd/0]
+     15       2 root     I    rcu_preempt     [rcu_preempt]
+     16       2 root     S    rcu_exp_par_gp_ [rcu_exp_par_gp_kthread_worker/0]
+     17       2 root     S    rcu_exp_gp_kthr [rcu_exp_gp_kthread_worker]
+     18       2 root     S    migration/0     [migration/0]
+     19       2 root     S    kprobe-optimize [kprobe-optimizer]
+     20       2 root     S    idle_inject/0   [idle_inject/0]
+     21       2 root     S    cpuhp/0         [cpuhp/0]
+     22       2 root     S    cpuhp/1         [cpuhp/1]
+     23       2 root     S    idle_inject/1   [idle_inject/1]
+     24       2 root     S    migration/1     [migration/1]
+     25       2 root     S    ksoftirqd/1     [ksoftirqd/1]
+     27       2 root     I<   kworker/1:0H-kb [kworker/1:0H-kblockd]
+     28       2 root     S    cpuhp/2         [cpuhp/2]
+     29       2 root     S    idle_inject/2   [idle_inject/2]
+     30       2 root     S    migration/2     [migration/2]
+     31       2 root     S    ksoftirqd/2     [ksoftirqd/2]
+     33       2 root     I<   kworker/2:0H-kb [kworker/2:0H-kblockd]
+     34       2 root     S    cpuhp/3         [cpuhp/3]
+     35       2 root     S    idle_inject/3   [idle_inject/3]
+     36       2 root     S    migration/3     [migration/3]
+     37       2 root     S    ksoftirqd/3     [ksoftirqd/3]
+     39       2 root     I<   kworker/3:0H-kb [kworker/3:0H-kblockd]
+     40       2 root     S    cpuhp/4         [cpuhp/4]
+     41       2 root     S    idle_inject/4   [idle_inject/4]
+     42       2 root     S    migration/4     [migration/4]
+     43       2 root     S    ksoftirqd/4     [ksoftirqd/4]
+     45       2 root     I<   kworker/4:0H-kb [kworker/4:0H-kblockd]
+     46       2 root     S    cpuhp/5         [cpuhp/5]
+     47       2 root     S    idle_inject/5   [idle_inject/5]
+     48       2 root     S    migration/5     [migration/5]
+     49       2 root     S    ksoftirqd/5     [ksoftirqd/5]
+     51       2 root     I<   kworker/5:0H-kb [kworker/5:0H-kblockd]
+     52       2 root     S    cpuhp/6         [cpuhp/6]
+     53       2 root     S    idle_inject/6   [idle_inject/6]
+     54       2 root     S    migration/6     [migration/6]
+     55       2 root     S    ksoftirqd/6     [ksoftirqd/6]
+     57       2 root     I<   kworker/6:0H-kb [kworker/6:0H-kblockd]
+     58       2 root     S    cpuhp/7         [cpuhp/7]
+     59       2 root     S    idle_inject/7   [idle_inject/7]
+     60       2 root     S    migration/7     [migration/7]
+     61       2 root     S    ksoftirqd/7     [ksoftirqd/7]
+     63       2 root     I<   kworker/7:0H    [kworker/7:0H]
+     64       2 root     S    cpuhp/8         [cpuhp/8]
+     65       2 root     S    idle_inject/8   [idle_inject/8]
+     66       2 root     S    migration/8     [migration/8]
+     67       2 root     S    ksoftirqd/8     [ksoftirqd/8]
+     69       2 root     I<   kworker/8:0H-kb [kworker/8:0H-kblockd]
+     70       2 root     S    cpuhp/9         [cpuhp/9]
+     71       2 root     S    idle_inject/9   [idle_inject/9]
+     72       2 root     S    migration/9     [migration/9]
+     73       2 root     S    ksoftirqd/9     [ksoftirqd/9]
+     75       2 root     I<   kworker/9:0H-kb [kworker/9:0H-kblockd]
+     76       2 root     S    cpuhp/10        [cpuhp/10]
+     77       2 root     S    idle_inject/10  [idle_inject/10]
+     78       2 root     S    migration/10    [migration/10]
+     79       2 root     S    ksoftirqd/10    [ksoftirqd/10]
+     81       2 root     I<   kworker/10:0H-k [kworker/10:0H-kblockd]
+     82       2 root     S    cpuhp/11        [cpuhp/11]
+     83       2 root     S    idle_inject/11  [idle_inject/11]
+     84       2 root     S    migration/11    [migration/11]
+     85       2 root     S    ksoftirqd/11    [ksoftirqd/11]
+     87       2 root     I<   kworker/11:0H-k [kworker/11:0H-kblockd]
+     90       2 root     S    kdevtmpfs       [kdevtmpfs]
+     91       2 root     I<   kworker/R-inet_ [kworker/R-inet_frag_wq]
+     92       2 root     I    rcu_tasks_kthre [rcu_tasks_kthread]
+     93       2 root     I    rcu_tasks_rude_ [rcu_tasks_rude_kthread]
+     94       2 root     S    kauditd         [kauditd]
+     95       2 root     S    khungtaskd      [khungtaskd]
+     96       2 root     S    oom_reaper      [oom_reaper]
+    100       2 root     I<   kworker/R-write [kworker/R-writeback]
+    101       2 root     S    kcompactd0      [kcompactd0]
+    102       2 root     SN   ksmd            [ksmd]
+    103       2 root     SN   khugepaged      [khugepaged]
+    104       2 root     I<   kworker/R-kbloc [kworker/R-kblockd]
+    105       2 root     I<   kworker/R-blkcg [kworker/R-blkcg_punt_bio]
+    106       2 root     I<   kworker/R-kinte [kworker/R-kintegrityd]
+    107       2 root     S    irq/9-acpi      [irq/9-acpi]
+    108       2 root     I<   kworker/R-tpm_d [kworker/R-tpm_dev_wq]
+    109       2 root     I<   kworker/R-ata_s [kworker/R-ata_sff]
+    110       2 root     I<   kworker/R-md_bi [kworker/R-md_bitmap]
+    111       2 root     I<   kworker/R-md_ll [kworker/R-md_llbitmap_io]
+    112       2 root     I<   kworker/R-md_ll [kworker/R-md_llbitmap_unplug]
+    113       2 root     I<   kworker/R-edac- [kworker/R-edac-poller]
+    114       2 root     I    kworker/u48:1-i [kworker/u48:1-ipv6_addrconf]
+    115       2 root     I<   kworker/R-devfr [kworker/R-devfreq_wq]
+    116       2 root     S    watchdogd       [watchdogd]
+    117       2 root     I<   kworker/R-quota [kworker/R-quota_events_unbound]
+    119       2 root     I    kworker/3:1-eve [kworker/3:1-events]
+    121       2 root     S    irq/26-AMD-Vi   [irq/26-AMD-Vi]
+    123       2 root     S    kswapd0         [kswapd0]
+    124       2 root     S    ecryptfs-kthrea [ecryptfs-kthread]
+    125       2 root     I<   kworker/R-kthro [kworker/R-kthrotld]
+    127       2 root     I<   kworker/u51:0   [kworker/u51:0]
+    128       2 root     S    irq/31-aerdrv   [irq/31-aerdrv]
+    129       2 root     S    irq/32-aerdrv   [irq/32-aerdrv]
+    130       2 root     I<   kworker/R-acpi_ [kworker/R-acpi_thermal_pm]
+    137       2 root     I<   kworker/R-mld   [kworker/R-mld]
+    138       2 root     I<   kworker/R-ipv6_ [kworker/R-ipv6_addrconf]
+    139       2 root     I<   kworker/R-kstrp [kworker/R-kstrp]
+    146       2 root     I<   kworker/u52:0   [kworker/u52:0]
+    147       2 root     I<   kworker/u53:0   [kworker/u53:0]
+    159       2 root     I<   kworker/R-charg [kworker/R-charger_manager]
+    160       2 root     S    irq/27-ACPI:Eve [irq/27-ACPI:Event]
+    230       2 root     S    scsi_eh_0       [scsi_eh_0]
+    231       2 root     I<   kworker/R-scsi_ [kworker/R-scsi_tmf_0]
+    232       2 root     S    usb-storage     [usb-storage]
+    234       2 root     I<   kworker/R-uas   [kworker/R-uas]
+    237       2 root     S    scsi_eh_1       [scsi_eh_1]
+    238       2 root     I<   kworker/R-scsi_ [kworker/R-scsi_tmf_1]
+    239       2 root     S    scsi_eh_2       [scsi_eh_2]
+    240       2 root     I<   kworker/R-scsi_ [kworker/R-scsi_tmf_2]
+    265       2 root     I    kworker/10:2-ev [kworker/10:2-events]
+    267       2 root     I<   kworker/5:1H-kb [kworker/5:1H-kblockd]
+    268       2 root     I<   kworker/4:1H-kb [kworker/4:1H-kblockd]
+    271       2 root     I<   kworker/10:1H-k [kworker/10:1H-kblockd]
+    272       2 root     I<   kworker/6:1H-kb [kworker/6:1H-kblockd]
+    273       2 root     I<   kworker/1:1H-kb [kworker/1:1H-kblockd]
+    274       2 root     I<   kworker/2:1H-kb [kworker/2:1H-kblockd]
+    275       2 root     I<   kworker/8:1H-kb [kworker/8:1H-kblockd]
+    278       2 root     I<   kworker/0:1H-kb [kworker/0:1H-kblockd]
+    296       2 root     I<   kworker/R-btrfs [kworker/R-btrfs-worker]
+    297       2 root     I<   kworker/R-btrfs [kworker/R-btrfs-delalloc]
+    298       2 root     I<   kworker/R-btrfs [kworker/R-btrfs-flush_delalloc]
+    299       2 root     I<   kworker/R-btrfs [kworker/R-btrfs-cache]
+    300       2 root     I<   kworker/R-btrfs [kworker/R-btrfs-fixup]
+    301       2 root     I<   kworker/R-btrfs [kworker/R-btrfs-endio]
+    302       2 root     I<   kworker/R-btrfs [kworker/R-btrfs-endio-meta]
+    303       2 root     I<   kworker/R-btrfs [kworker/R-btrfs-rmw]
+    304       2 root     I<   kworker/R-btrfs [kworker/R-btrfs-endio-write]
+    305       2 root     I<   kworker/R-btrfs [kworker/R-btrfs-freespace-write]
+    306       2 root     I<   kworker/R-btrfs [kworker/R-btrfs-delayed-meta]
+    307       2 root     I<   kworker/R-btrfs [kworker/R-btrfs-qgroup-rescan]
+    308       2 root     S    btrfs-cleaner   [btrfs-cleaner]
+    309       2 root     S    btrfs-transacti [btrfs-transaction]
+    338       2 root     I<   kworker/7:1H-kb [kworker/7:1H-kblockd]
+    352       2 root     I<   kworker/9:1H-kb [kworker/9:1H-kblockd]
+    354       2 root     I<   kworker/11:1H-k [kworker/11:1H-kblockd]
+    381       2 root     S    psimon          [psimon]
+    386       1 root     S<s  systemd-journal /usr/lib/systemd/systemd-journald
+    405       2 root     I<   kworker/3:1H-kb [kworker/3:1H-kblockd]
+    423       1 systemd+ Ss   systemd-resolve /usr/lib/systemd/systemd-resolved
+    443       1 root     Ss   systemd-udevd   /usr/lib/systemd/systemd-udevd
+    454       2 root     S    psimon          [psimon]
+    540       2 root     I<   kworker/R-ipmi- [kworker/R-ipmi-msghandler-remove-wq]
+    597       2 root     I<   kworker/R-led_w [kworker/R-led_workqueue]
+   1011       1 root     S<sl auditd          /usr/sbin/auditd
+   1127       1 root     Ssl  accounts-daemon /usr/libexec/accounts-daemon
+   1130       1 avahi    Ss   avahi-daemon    avahi-daemon: running [ku36.local]
+   1132       1 root     Ss   chronyd-starter /bin/sh /usr/lib/systemd/scripts/chronyd-starter.sh -n -F 1
+   1135       1 message+ Ss   dbus-daemon     @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+   1141       1 motion   Ssl  motion          /usr/bin/motion
+   1145       1 root     Ss   networkd-dispat /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+   1149       1 polkitd  Ssl  polkitd         /usr/lib/polkit-1/polkitd --no-debug --log-level=notice
+   1157       1 root     Ss   smartd          /usr/sbin/smartd -n
+   1161       1 root     Ssl  snapd           /usr/lib/snapd/snapd
+   1162       1 root     Ssl  switcheroo-cont /usr/libexec/switcheroo-control
+   1173       1 root     Ss   systemd-logind  /usr/lib/systemd/systemd-logind
+   1174       1 root     Ss   systemd-machine /usr/lib/systemd/systemd-machined
+   1183       1 root     Ssl  udisksd         /usr/libexec/udisks2/udisksd
+   1197       1 root     Ss   virtlockd       /usr/sbin/virtlockd
+   1201       1 root     Ss   virtlogd        /usr/sbin/virtlogd
+   1221       1 syslog   Ssl  rsyslogd        /usr/sbin/rsyslogd -n -iNONE
+   1234    1130 avahi    S    avahi-daemon    avahi-daemon: chroot helper
+   1257       1 root     S<   atopacctd       /usr/sbin/atopacctd
+   1295       1 root     S<Ls atop            /usr/bin/atop -w /var/log/atop/atop_20261113 600
+   1302    1132 _chrony  S    chronyd         /usr/sbin/chronyd -n -F 1
+   1303    1302 _chrony  S    chronyd         /usr/sbin/chronyd -n -F 1
+   1340       1 root     Ssl  NetworkManager  /usr/sbin/NetworkManager --no-daemon
+   1342       1 root     Ss   wpa_supplicant  /usr/sbin/wpa_supplicant -u -s -O DIR=/run/wpa_supplicant GROUP=netdev
+   1369       1 root     Ssl  ModemManager    /usr/sbin/ModemManager
+   1419       1 root     Ss   cupsd           /usr/sbin/cupsd -l
+   1426       1 root     Ssl  canonical-livep /snap/canonical-livepatch/418/canonical-livepatchd
+   1436       1 root     Ss   run-cups-browse /bin/sh /snap/cups/1277/scripts/run-cups-browsed
+   1441       1 root     Ss   run-cupsd       /bin/sh /snap/cups/1277/scripts/run-cupsd
+   1442       1 root     Ssl  unattended-upgr /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+   1524       1 colord   Ssl  colord          /usr/libexec/colord
+   1583    1419 lp       S    dbus            /usr/lib/cups/notifier/dbus dbus://
+   1586    1419 lp       S    dbus            /usr/lib/cups/notifier/dbus dbus://
+   1667    1441 root     S    cupsd           cupsd -f -s /var/snap/cups/common/etc/cups/cups-files.conf -c /var/snap/cups/common/etc/cups/cupsd.conf
+   1668    1441 root     Sl   cups-proxyd     cups-proxyd /var/snap/cups/common/run/cups.sock /run/cups/cups.sock -l --logdir /var/snap/cups/1277/var/log
+   1673    1436 root     S    run-cups-browse /bin/sh /snap/cups/1277/scripts/run-cups-browsed
+   1726       1 cups-br+ Ssl  cups-browsed    /usr/sbin/cups-browsed
+   1728       1 root     Ss   cron            /usr/sbin/cron -f -P
+   1729       1 root     Ssl  libvirtd        /usr/sbin/libvirtd --timeout 120
+   1759       1 root     Ssl  power-profiles- /usr/libexec/power-profiles-daemon
+   1762       1 debian-+ Ssl  tor             /usr/bin/tor --defaults-torrc /usr/share/tor/tor-service-defaults-torrc -f /etc/tor/torrc --RunAsDaemon 0
+   1859       1 libvirt+ S    dnsmasq         /usr/sbin/dnsmasq --conf-file=/var/lib/libvirt/dnsmasq/default.conf --leasefile-ro --dhcp-script=/usr/lib/libvirt/libvirt_leaseshelper
+   1860    1859 root     S    dnsmasq         /usr/sbin/dnsmasq --conf-file=/var/lib/libvirt/dnsmasq/default.conf --leasefile-ro --dhcp-script=/usr/lib/libvirt/libvirt_leaseshelper
+   1892       1 root     Ssl  sddm            /usr/bin/sddm
+   1958       1 rtkit    SNsl rtkit-daemon    /usr/libexec/rtkit-daemon
+   2023       1 root     Ssl  upowerd         /usr/libexec/upowerd
+   2074       1 root     Ss   login           login -- tt
+   2240       1 tt       Ss   systemd         /usr/lib/systemd/systemd --user
+   2248    2240 tt       S    (sd-pam)        (sd-pam)
+   2274    2240 tt       Ss   dbus-daemon     /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+   2275    2074 tt       Ss   bash            -bash
+   2276    2240 tt       S<sl pipewire        /usr/bin/pipewire
+   2280    2240 tt       Ss   mpris-proxy     /usr/bin/mpris-proxy
+   2283    2240 tt       S<sl wireplumber     /usr/bin/wireplumber
+   2284    2240 tt       Ssl  pipewire        /usr/bin/pipewire -c filter-chain.conf
+   2285    2240 tt       S<Lsl pipewire-pulse /usr/bin/pipewire-pulse
+   2396    2275 root     S+   sudo            sudo bash
+   2399    2396 root     Ss   sudo            sudo bash
+   2400    2399 root     S    bash            bash
+   2435    2400 root     S    nowdir.sh       /bin/bash -x /usr/local/bin/nowdir.sh
+   2439    2435 root     S+   bash            bash
+   5493       1 root     Ssl  fwupd           /usr/libexec/fwupd/fwupd
+   5503       2 root     I    kworker/4:0-eve [kworker/4:0-events]
+   7967       1 root     Ss+  agetty          /usr/sbin/agetty --noreset --noclear --issue-file=/etc/issue:/etc/issue.d:/run/issue.d:/usr/lib/issue.d - linux
+   7984       2 root     I    kworker/5:1-eve [kworker/5:1-events]
+   7992       1 root     Ss+  agetty          /usr/sbin/agetty --noreset --noclear --issue-file=/etc/issue:/etc/issue.d:/run/issue.d:/usr/lib/issue.d - linux
+   7993       2 root     I    kworker/11:1-ev [kworker/11:1-events]
+   7994       1 root     Ss+  agetty          /usr/sbin/agetty --noreset --noclear --issue-file=/etc/issue:/etc/issue.d:/run/issue.d:/usr/lib/issue.d - linux
+   7995       1 root     Ss+  agetty          /usr/sbin/agetty --noreset --noclear --issue-file=/etc/issue:/etc/issue.d:/run/issue.d:/usr/lib/issue.d - linux
+   8068    1892 root     S    sddm-helper     /usr/lib/x86_64-linux-gnu/sddm/sddm-helper --socket /tmp/sddm-auth-b0313c24-eb19-44bb-a5d3-db2dea94dd57 --id 1 --start /usr/lib/x86_64-linux-gnu/libexec/plasma-dbus-run-session-if-needed /usr/bin/startplasma-wayland --user tt
+   8075       1 tt       SLl  ksecretd        /usr/bin/ksecretd --pam-login 13 14
+   8076    8068 tt       Ssl+ startplasma-way /usr/bin/startplasma-wayland
+   8183    2240 tt       Ssl  kwin_wayland_wr /usr/bin/kwin_wayland_wrapper --xwayland
+   8184    2240 tt       Ss   ssh-agent       /usr/bin/ssh-agent -D
+   8192    8183 tt       Sl   kwin_wayland    /usr/bin/kwin_wayland --wayland-fd 7 --socket wayland-0 --xwayland-fd 8 --xwayland-fd 9 --xwayland-display :0 --xwayland-xauthority /run/user/1000/xauth_QEIXMo --xwayland
+   8243    8192 tt       S    Xwayland        /usr/bin/Xwayland :0 -auth /run/user/1000/xauth_QEIXMo -listenfd 8 -listenfd 9 -displayfd 61 -wm 64 -rootless -enable-ei-portal
+   8253    2240 tt       Ssl  at-spi-bus-laun /usr/libexec/at-spi-bus-launcher
+   8264    8253 tt       S    dbus-daemon     /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 11 --address=unix:path=/run/user/1000/at-spi/bus_0
+   8277    2240 tt       Ssl  ksmserver       /usr/bin/ksmserver
+   8279    2240 tt       Ssl  kded6           /usr/bin/kded6
+   8365    2240 tt       Ssl  plasmashell     /usr/bin/plasmashell --no-respawn
+   8367    2240 tt       Sl   at-spi2-registr /usr/libexec/at-spi2-registryd --use-gnome-session
+   8385    2240 tt       Ssl  dconf-service   /usr/libexec/dconf-service
+   8398       2 root     I    kworker/8:2-eve [kworker/8:2-events]
+   8424    2240 tt       Ssl  kactivitymanage /usr/lib/x86_64-linux-gnu/libexec/kactivitymanagerd
+   8432    2240 tt       Ssl  gmenudbusmenupr /usr/bin/gmenudbusmenuproxy
+   8433    2240 tt       Ssl  kaccess         /usr/bin/kaccess
+   8434    2240 tt       Ssl  polkit-kde-auth /usr/lib/x86_64-linux-gnu/libexec/polkit-kde-authentication-agent-1
+   8435    2240 tt       Ssl  org_kde_powerde /usr/lib/x86_64-linux-gnu/libexec/org_kde_powerdevil
+   8436    2240 tt       Ssl  xembedsniproxy  /usr/bin/xembedsniproxy
+   8564    2240 tt       Ssl  kdeconnectd     /usr/bin/kdeconnectd
+   8574    2240 tt       Ssl  kunifiedpush-di /usr/bin/kunifiedpush-distributor
+   8576    2240 tt       Ssl  xdg-desktop-por /usr/libexec/xdg-desktop-portal
+   8578    2240 tt       Ssl  agent           /usr/libexec/geoclue-2.0/demos/agent
+   8585    2240 tt       Ssl  DiscoverNotifie /usr/lib/x86_64-linux-gnu/libexec/DiscoverNotifier --check-delay 20
+   8607    2240 tt       Ssl  xdg-permission- /usr/libexec/xdg-permission-store
+   8627    2240 tt       Sl   bitwarden-app   /snap/bitwarden/179/bitwarden-app --enable-features=UseOzonePlatform --ozone-platform=x11 --no-sandbox --autostart
+   8652    2240 tt       Ssl  xdg-document-po /usr/libexec/xdg-document-portal
+   8657    2240 tt       Ssl  dropbox         /home/tt/.dropbox-dist/dropbox-lnx.x86_64-278.4.4020/dropbox
+   8672    8652 root     Ss   fusermount3     fusermount3 -o rw,nosuid,nodev,fsname=portal,auto_unmount,subtype=portal -- /run/user/1000/doc
+   8694    2240 tt       Ssl  xdg-desktop-por /usr/libexec/xdg-desktop-portal-gtk
+   8785    2240 tt       S    xsettingsd      /usr/bin/xsettingsd
+   8813    2240 tt       Ssl  obexd           /usr/libexec/bluetooth/obexd
+   8827    2240 tt       Rsl  konsole         /usr/bin/konsole
+   8831    2240 tt       SLsl haruna          /usr/bin/haruna
+   8834    2240 tt       Ssl  skanpage        /usr/bin/skanpage
+   8838    2240 tt       Ssl  xdg-desktop-por /usr/lib/x86_64-linux-gnu/libexec/xdg-desktop-portal-kde
+   8839    2240 tt       Ssl  oosplash        /usr/lib/libreoffice/program/oosplash --writer
+   8840    2240 tt       Ssl  dolphin         /usr/bin/dolphin
+   9168    8827 tt       Ss   bash            /bin/bash
+   9270    8839 tt       Sl   soffice.bin     /usr/lib/libreoffice/program/soffice.bin --writer --splash-pipe=5
+   9369    8627 tt       S    bitwarden-app   /snap/bitwarden/179/bitwarden-app --type=zygote --no-zygote-sandbox --no-sandbox
+   9370    8627 tt       S    bitwarden-app   /snap/bitwarden/179/bitwarden-app --type=zygote --no-sandbox
+   9856    8627 tt       Sl   bitwarden-app   /snap/bitwarden/179/bitwarden-app --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --no-sandbox --enable-crash-reporter=f907e67c-1874-4695-b112-38a62cdbeec6,no_channel --user-data-dir=/home/tt/snap/bitwarden/179/appdata --standard-schemes=bw-desktop-file --secure-schemes=bw-desktop-file --fetch-schemes=bw-desktop-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,8438338926339548787,5386957976621896813,262144 --enable-features=GlobalShortcutsPortalPreferredTrigger,PdfUseShowSaveFilePicker,UseOzonePlatform --disable-features=DropInputEventsWhilePaintHolding,LocalNetworkAccessChecks,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TraceSiteInstanceGetProcessCreation --variations-seed-version --pseudonymization-salt-handle=7,i,17197399149035111980,3055415889314966671,4 --trace-process-track-uuid=3190708989122997041
+  10030    9369 tt       Sl   bitwarden-app   /snap/bitwarden/179/bitwarden-app --type=gpu-process --no-sandbox --ozone-platform=x11 --enable-crash-reporter=f907e67c-1874-4695-b112-38a62cdbeec6,no_channel --user-data-dir=/home/tt/snap/bitwarden/179/appdata --gpu-preferences=WAAAAAAAAAAgAQAEAAAAAAAAAAAAAGAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAACAAAAAAAAAAIAAAAAAAAAABAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAAAA== --use-gl=disabled --shared-files --field-trial-handle=3,i,8438338926339548787,5386957976621896813,262144 --enable-features=GlobalShortcutsPortalPreferredTrigger,PdfUseShowSaveFilePicker,UseOzonePlatform --disable-features=DropInputEventsWhilePaintHolding,LocalNetworkAccessChecks,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TraceSiteInstanceGetProcessCreation --variations-seed-version --pseudonymization-salt-handle=7,i,17197399149035111980,3055415889314966671,4 --trace-process-track-uuid=3190708990060038890
+  12805    9168 tt       Sl+  chrome          /snap/chromium/3569/usr/lib/chromium-browser/chrome --password-store=basic --gtk-version=3 --disable-features=TFLiteLanguageDetectionEnabled https://chatgpt.com/c/6af778b5-e644-83e8-953f-572ebcc165e3
+  12886    2240 tt       Sl   chrome_crashpad /snap/chromium/3569/usr/lib/chromium-browser/chrome_crashpad_handler --monitor-self --monitor-self-annotation=ptype=crashpad-handler --user-stream-region=4,65568 --database=/home/tt/snap/chromium/common/chromium/Crash Reports --annotation=channel=snap --annotation=lsb-release=Ubuntu Core 24 --annotation=plat=Linux --annotation=prod=Chrome_Linux --annotation=ver=156.0.8078.47 --initial-client-fd=8 --shared-client-connection
+  12888    2240 tt       S    chrome_crashpad /snap/chromium/3569/usr/lib/chromium-browser/chrome_crashpad_handler --no-periodic-tasks --monitor-self-annotation=ptype=crashpad-handler --database=/home/tt/snap/chromium/common/chromium/Crash Reports --annotation=channel=snap --annotation=lsb-release=Ubuntu Core 24 --annotation=plat=Linux --annotation=prod=Chrome_Linux --annotation=ver=156.0.8078.47 --initial-client-fd=4 --shared-client-connection
+  12892   12805 tt       S+   chrome          /snap/chromium/3569/usr/lib/chromium-browser/chrome --type=zygote --no-zygote-sandbox --crashpad-handler-pid=12886 --enable-crash-reporter=,snap --change-stack-guard-on-fork=enable
+  12893   12805 tt       S+   chrome          /snap/chromium/3569/usr/lib/chromium-browser/chrome --type=zygote --crashpad-handler-pid=12886 --enable-crash-reporter=,snap --change-stack-guard-on-fork=enable
+  12895   12893 tt       S+   chrome          /snap/chromium/3569/usr/lib/chromium-browser/chrome --type=zygote --crashpad-handler-pid=12886 --enable-crash-reporter=,snap --change-stack-guard-on-fork=enable
+  12928   12892 tt       Sl+  chrome          /snap/chromium/3569/usr/lib/chromium-browser/chrome --type=gpu-process --gpu-recent-crash-count=0 --ozone-platform=wayland --crashpad-handler-pid=12886 --enable-crash-reporter=,snap --change-stack-guard-on-fork=enable --gpu-preferences=YAAAAAAAAAAgAQAEAAAAAAAAAAAAAGAASAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAKAAAAAAAAAAoAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAACAAAAAAAAAA= --use-gl=disabled --shared-files --metrics-shmem-handle=4,i,8606886845785857998,5938383724326753005,262144 --field-trial-handle=3,i,14977191551461394096,243806050063046994,262144 --disable-features=TFLiteLanguageDetectionEnabled --variations-seed-version --pseudonymization-salt-handle=7,i,1011509191959354801,12932923309203553010,4 --trace-process-track-uuid=3190708988185955192
+  12933   12805 tt       Sl+  chrome          /snap/chromium/3569/usr/lib/chromium-browser/chrome --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --crashpad-handler-pid=12886 --enable-crash-reporter=,snap --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,7925550279288842401,14238764422916079880,524288 --field-trial-handle=3,i,14977191551461394096,243806050063046994,262144 --disable-features=TFLiteLanguageDetectionEnabled --variations-seed-version --pseudonymization-salt-handle=7,i,1011509191959354801,12932923309203553010,4 --trace-process-track-uuid=3190708989122997041
+  12934   12928 tt       S+   chrome          /snap/chromium/3569/usr/lib/chromium-browser/chrome --type=broker
+  12946   12895 tt       Sl+  chrome          /snap/chromium/3569/usr/lib/chromium-browser/chrome --type=utility --utility-sub-type=storage.mojom.StorageService --lang=en-US --service-sandbox-type=utility --crashpad-handler-pid=12886 --enable-crash-reporter=,snap --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,5640660687422901898,964195618008552391,524288 --field-trial-handle=3,i,14977191551461394096,243806050063046994,262144 --disable-features=TFLiteLanguageDetectionEnabled --variations-seed-version --pseudonymization-salt-handle=7,i,1011509191959354801,12932923309203553010,4 --trace-process-track-uuid=3190708990060038890
+  12971   12895 tt       Sl+  chrome          /snap/chromium/3569/usr/lib/chromium-browser/chrome --type=renderer --top-chrome-webui --crashpad-handler-pid=12886 --enable-crash-reporter=,snap --change-stack-guard-on-fork=enable --ozone-platform=wayland --disable-gpu-compositing --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=5 --launch-time-ticks=2457146966 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,4580943429379763057,12945982852007896165,1572864 --field-trial-handle=3,i,14977191551461394096,243806050063046994,262144 --disable-features=TFLiteLanguageDetectionEnabled --variations-seed-version --pseudonymization-salt-handle=7,i,1011509191959354801,12932923309203553010,4 --trace-process-track-uuid=3190708990997080739
+  13019    2240 tt       Sl   snap            /usr/bin/snap userd
+  13362    2240 tt       Ssl  baloorunner     /usr/lib/x86_64-linux-gnu/libexec/baloorunner
+  13406    2240 tt       SLsl otpclient       /usr/bin/otpclient
+  13961   12895 tt       Sl+  chrome          /snap/chromium/3569/usr/lib/chromium-browser/chrome --type=renderer --crashpad-handler-pid=12886 --enable-crash-reporter=,snap --change-stack-guard-on-fork=enable --ozone-platform=wayland --disable-gpu-compositing --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=28 --launch-time-ticks=2605370859 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,18174820862127907537,9549314150537898100,1572864 --field-trial-handle=3,i,14977191551461394096,243806050063046994,262144 --disable-features=TFLiteLanguageDetectionEnabled --variations-seed-version --pseudonymization-salt-handle=7,i,1011509191959354801,12932923309203553010,4 --trace-process-track-uuid=3190709012549043266
+  14087    1419 lp       S    dbus            /usr/lib/cups/notifier/dbus dbus://
+  14088    1419 lp       S    dbus            /usr/lib/cups/notifier/dbus dbus://
+  14089    1419 lp       S    dbus            /usr/lib/cups/notifier/dbus dbus://
+  14090    1419 lp       S    dbus            /usr/lib/cups/notifier/dbus dbus://
+  14794   12805 tt       Sl+  chrome          /snap/chromium/3569/usr/lib/chromium-browser/chrome --type=utility --utility-sub-type=audio.mojom.AudioService --lang=en-US --service-sandbox-type=none --crashpad-handler-pid=12886 --enable-crash-reporter=,snap --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,5629319948488004039,363891710905281001,524288 --field-trial-handle=3,i,14977191551461394096,243806050063046994,262144 --disable-features=TFLiteLanguageDetectionEnabled --variations-seed-version --pseudonymization-salt-handle=7,i,1011509191959354801,12932923309203553010,4 --trace-process-track-uuid=3190709042534382434
+  15270    2240 tt       Ssl  systemsettings  /usr/bin/systemsettings kcm_printer_manager
+  15418    2240 tt       Ssl  konsole         /usr/bin/konsole
+  15452   15418 tt       Ss+  bash            /bin/bash
+  15585    2240 tt       Ssl  emacs           emacs --daemon
+  16539   15418 tt       Ss+  bash            /bin/bash
+  17881       2 root     I    kworker/1:2-eve [kworker/1:2-events]
+  18110    2240 tt       Ssl  speech-dispatch /usr/bin/speech-dispatcher -s -t 0
+  18122   18110 tt       Z    sd_espeak-ng-mb [sd_espeak-ng-mb] <defunct>
+  18126   18110 tt       S    sd_espeak-ng    /usr/lib/speech-dispatcher-modules/sd_espeak-ng /etc/speech-dispatcher/modules/espeak-ng.conf
+  18138   18110 tt       Sl   sd_dummy        /usr/lib/speech-dispatcher-modules/sd_dummy /etc/speech-dispatcher/modules/dummy.conf
+  18141   18110 tt       S    sd_espeak-ng    /usr/lib/speech-dispatcher-modules/sd_espeak-ng /etc/speech-dispatcher/modules/
+  18690   12895 tt       Sl+  chrome          /snap/chromium/3569/usr/lib/chromium-browser/chrome --type=renderer --crashpad-handler-pid=12886 --enable-crash-reporter=,snap --change-stack-guard-on-fork=enable --ozone-platform=wayland --disable-gpu-compositing --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=87 --launch-time-ticks=5989432759 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,5127912862444366621,5933819022961668357,1572864 --field-trial-handle=3,i,14977191551461394096,243806050063046994,262144 --disable-features=TFLiteLanguageDetectionEnabled --variations-seed-version --pseudonymization-salt-handle=7,i,1011509191959354801,12932923309203553010,4 --trace-process-track-uuid=3190709067834512357
+  19400    2240 tt       Ssl  konsole         /usr/bin/konsole
+  19436   19400 tt       Ss+  bash            /bin/bash
+  19502    2240 tt       SLl  kwalletd6       /usr/bin/kwalletd6
+  20066   12895 tt       Sl+  chrome          /snap/chromium/3569/usr/lib/chromium-browser/chrome --type=renderer --crashpad-handler-pid=12886 --enable-crash-reporter=,snap --change-stack-guard-on-fork=enable --ozone-platform=wayland --disable-gpu-compositing --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=94 --launch-time-ticks=7214905209 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,10378538155735858599,12011458140731072948,1572864 --field-trial-handle=3,i,14977191551461394096,243806050063046994,262144 --disable-features=TFLiteLanguageDetectionEnabled --variations-seed-version --pseudonymization-salt-handle=7,i,1011509191959354801,12932923309203553010,4 --trace-process-track-uuid=3190709074393805300
+  20077   12895 tt       Sl+  chrome          /snap/chromium/3569/usr/lib/chromium-browser/chrome --type=renderer --crashpad-handler-pid=12886 --enable-crash-reporter=,snap --change-stack-guard-on-fork=enable --ozone-platform=wayland --disable-gpu-compositing --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=95 --launch-time-ticks=7215221918 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,10396158160427137330,1069174194317694896,1572864 --field-trial-handle=3,i,14977191551461394096,243806050063046994,262144 --disable-features=TFLiteLanguageDetectionEnabled --variations-seed-version --pseudonymization-salt-handle=7,i,1011509191959354801,12932923309203553010,4 --trace-process-track-uuid=3190709075330847149
+  20263   12895 tt       Sl+  chrome          /snap/chromium/3569/usr/lib/chromium-browser/chrome --type=renderer --crashpad-handler-pid=12886 --enable-crash-reporter=,snap --change-stack-guard-on-fork=enable --ozone-platform=wayland --disable-gpu-compositing --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=97 --launch-time-ticks=7467375454 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,2337097552668918122,8666929080745691171,1572864 --field-trial-handle=3,i,14977191551461394096,243806050063046994,262144 --disable-features=TFLiteLanguageDetectionEnabled --variations-seed-version --pseudonymization-salt-handle=7,i,1011509191959354801,12932923309203553010,4 --trace-process-track-uuid=3190709077204930847
+  20335   12895 tt       Sl+  chrome          /snap/chromium/3569/usr/lib/chromium-browser/chrome --type=renderer --crashpad-handler-pid=12886 --enable-crash-reporter=,snap --change-stack-guard-on-fork=enable --ozone-platform=wayland --disable-gpu-compositing --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=99 --launch-time-ticks=7556609425 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,11309815064729887633,5370479093074070684,1572864 --field-trial-handle=3,i,14977191551461394096,243806050063046994,262144 --disable-features=TFLiteLanguageDetectionEnabled --variations-seed-version --pseudonymization-salt-handle=7,i,1011509191959354801,12932923309203553010,4 --trace-process-track-uuid=3190709079079014545
+  20428   12895 tt       Sl+  chrome          /snap/chromium/3569/usr/lib/chromium-browser/chrome --type=renderer --crashpad-handler-pid=12886 --enable-crash-reporter=,snap --change-stack-guard-on-fork=enable --ozone-platform=wayland --disable-gpu-compositing --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=101 --launch-time-ticks=7699412701 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,7993362242247003887,4325147054509798815,1572864 --field-trial-handle=3,i,14977191551461394096,243806050063046994,262144 --disable-features=TFLiteLanguageDetectionEnabled --variations-seed-version --pseudonymization-salt-handle=7,i,1011509191959354801,12932923309203553010,4 --trace-process-track-uuid=3190709080953098243
+  20439   12895 tt       Sl+  chrome          /snap/chromium/3569/usr/lib/chromium-browser/chrome --type=renderer --crashpad-handler-pid=12886 --enable-crash-reporter=,snap --change-stack-guard-on-fork=enable --ozone-platform=wayland --disable-gpu-compositing --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=102 --launch-time-ticks=7699699867 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,13369827560342485884,7609370471141321198,1572864 --field-trial-handle=3,i,14977191551461394096,243806050063046994,262144 --disable-features=TFLiteLanguageDetectionEnabled --variations-seed-version --pseudonymization-salt-handle=7,i,1011509191959354801,12932923309203553010,4 --trace-process-track-uuid=3190709081890140092
+  20578    8827 tt       Ss+  bash            /bin/bash
+  21605   20578 tt       Sl   emacs           emacs .
+  21893    8827 tt       Ss+  bash            /bin/bash
+  22069       2 root     I    kworker/5:0     [kworker/5:0]
+  23034    8827 tt       Ss   bash            /bin/bash
+  23044    8827 tt       Ss+  bash            /bin/bash
+  23755       2 root     I    kworker/3:0-eve [kworker/3:0-events]
+  23815       2 root     I    kworker/u49:8-b [kworker/u49:8-btrfs-endio-meta]
+  23950       2 root     I    kworker/11:2-ev [kworker/11:2-events]
+  24045       2 root     I    kworker/7:1-eve [kworker/7:1-events]
+  24112   15418 tt       Ss   bash            /bin/bash
+  24123   24112 root     S+   sudo            sudo bash
+  24126   24123 root     Ss   sudo            sudo bash
+  24127   24126 root     S+   bash            bash
+  24135   15418 tt       Ss+  bash            /bin/bash
+  24152       2 root     I    kworker/0:0-eve [kworker/0:0-events]
+  24155       2 root     I    kworker/6:1-cgr [kworker/6:1-cgroup_free]
+  24157   15418 tt       Ss+  bash            /bin/bash
+  24258       2 root     I    kworker/u49:5-b [kworker/u49:5-btrfs-endio-write]
+  24590       2 root     I    kworker/u49:2-b [kworker/u49:2-btrfs-endio]
+  24740       2 root     I    kworker/1:0     [kworker/1:0]
+  24769    8827 tt       Ss+  bash            /bin/bash
+  24868       2 root     I    kworker/9:1-eve [kworker/9:1-events]
+  24887       2 root     I    kworker/u49:4-b [kworker/u49:4-btrfs-endio-meta]
+  24901       2 root     I    kworker/9:2-mm_ [kworker/9:2-mm_percpu_wq]
+  24902       2 root     I    kworker/u49:6-e [kworker/u49:6-events_unbound]
+  25258       2 root     I    kworker/u49:1-b [kworker/u49:1-btrfs-delalloc]
+  25544       2 root     I    kworker/u49:12- [kworker/u49:12-btrfs-endio-write]
+  25800       2 root     I    kworker/u50:4-b [kworker/u50:4-btrfs-endio-write]
+  25843    2240 tt       Ssl  firefox-bin     /usr/bin/firefox --profile /home/tt/browser_profiles/v2/firefox/ff_00 --no-remote --class=browser_firefox_ff_00 --name=browser_firefox_ff_00
+  25848    2240 tt       Sl   crashhelper     /usr/lib/firefox/crashhelper 25843 9 /tmp/ 11 20261104181552
+  25938   25843 tt       S    forkserver      /usr/lib/firefox/firefox-bin -contentproc -ipcHandle 0 -signalPipe 1 -initialChannelId {e0651369-21c0-4e05-b298-a4188c6e9318} -parentPid 25843 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appDir /usr/lib/firefox/browser 1 forkserver
+  25955   25938 tt       Sl   Socket Process  /usr/lib/firefox/firefox-bin -contentproc -parentBuildID 20261104181552 -prefsHandle 0:36115 -prefMapHandle 1:308257 -sandboxReporter 2 -chrootClient 3 -ipcHandle 4 -initialChannelId {8808f1ad-87c1-4c08-8172-72d0a036207f} -parentPid 25843 -crashHelperPid 25848 -crashHelper 5 -crashReporter 6 -appDir /usr/lib/firefox/browser 2 socket
+  25967   25938 tt       Sl   Privileged Cont /usr/lib/firefox/firefox-bin -contentproc -isForBrowser -prefsHandle 0:36240 -prefMapHandle 1:308257 -jsInitHandle 2:161360 -parentBuildID 20261104181552 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {106affb5-f3a7-47f9-a624-85fbe9f4c209} -parentPid 25843 -crashHelperPid 25848 -crashHelper 6 -crashReporter 7 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appDir /usr/lib/firefox/browser 3 tab
+  25976   25938 tt       Sl   RDD Process     /usr/lib/firefox/firefox-bin -contentproc -parentBuildID 20261104181552 -prefsHandle 0:36240 -prefMapHandle 1:308257 -sandboxReporter 2 -chrootClient 3 -ipcHandle 4 -initialChannelId {e387605a-215b-4cf7-ac8f-b42bb2874081} -parentPid 25843 -crashHelperPid 25848 -crashHelper 5 -crashReporter 6 -appDir /usr/lib/firefox/browser 4 rdd
+  26072   25938 tt       Sl   WebExtensions   /usr/lib/firefox/firefox-bin -contentproc -isForBrowser -prefsHandle 0:36360 -prefMapHandle 1:308257 -jsInitHandle 2:161360 -parentBuildID 20261104181552 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {290c4e93-dfd7-4722-b935-5f6a8623057d} -parentPid 25843 -crashHelperPid 25848 -crashHelper 6 -crashReporter 7 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appDir /usr/lib/firefox/browser 5 tab
+  26109   25938 tt       Sl   Utility Process /usr/lib/firefox/firefox-bin -contentproc -parentBuildID 20261104181552 -sandboxingKind 0 -prefsHandle 0:54068 -prefMapHandle 1:308257 -sandboxReporter 2 -chrootClient 3 -ipcHandle 4 -initialChannelId {c36ced6c-8e07-4a4a-a7db-8da68a3a2c40} -parentPid 25843 -crashHelperPid 25848 -crashHelper 5 -crashReporter 6 -appDir /usr/lib/firefox/browser 6 utility
+  26117   25938 tt       Sl   Isolated Web Co /usr/lib/firefox/firefox-bin -contentproc -isForBrowser -prefsHandle 0:50423 -prefMapHandle 1:308257 -jsInitHandle 2:161360 -parentBuildID 20261104181552 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {a79af96d-0848-4c3b-914f-cd5c71582598} -parentPid 25843 -crashHelperPid 25848 -crashHelper 6 -crashReporter 7 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appDir /usr/lib/firefox/browser 7 tab
+  26124   25938 tt       Sl   Isolated Web Co /usr/lib/firefox/firefox-bin -contentproc -isForBrowser -prefsHandle 0:50423 -prefMapHandle 1:308257 -jsInitHandle 2:161360 -parentBuildID 20261104181552 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {be6e0cd0-f0d3-49ca-9411-acea47126c70} -parentPid 25843 -crashHelperPid 25848 -crashHelper 6 -crashReporter 7 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appDir /usr/lib/firefox/browser 8 tab
+  26128   25938 tt       Sl   Isolated Web Co /usr/lib/firefox/firefox-bin -contentproc -isForBrowser -prefsHandle 0:50423 -prefMapHandle 1:308257 -jsInitHandle 2:161360 -parentBuildID 20261104181552 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {5be933ab-9804-46ea-b643-008075d7df5b} -parentPid 25843 -crashHelperPid 25848 -crashHelper 6 -crashReporter 7 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appDir /usr/lib/firefox/browser 9 tab
+  26256   25938 tt       Sl   Isolated Web Co /usr/lib/firefox/firefox-bin -contentproc -isForBrowser -prefsHandle 0:50556 -prefMapHandle 1:308257 -jsInitHandle 2:161360 -parentBuildID 20261104181552 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {5cfca0e8-9233-46d8-921c-3e066dfc427b} -parentPid 25843 -crashHelperPid 25848 -crashHelper 6 -crashReporter 7 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appDir /usr/lib/firefox/browser 10 tab
+  26259   25938 tt       Sl   Isolated Web Co /usr/lib/firefox/firefox-bin -contentproc -isForBrowser -prefsHandle 0:50556 -prefMapHandle 1:308257 -jsInitHandle 2:161360 -parentBuildID 20261104181552 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {54f7325d-8245-4dcf-8b3d-17042ed33b3d} -parentPid 25843 -crashHelperPid 25848 -crashHelper 6 -crashReporter 7 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appDir /usr/lib/firefox/browser 11 tab
+  26264   25938 tt       Sl   Isolated Web Co /usr/lib/firefox/firefox-bin -contentproc -isForBrowser -prefsHandle 0:50556 -prefMapHandle 1:308257 -jsInitHandle 2:161360 -parentBuildID 20261104181552 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {37733396-e4cf-4419-8f0a-4c29af92fdb2} -parentPid 25843 -crashHelperPid 25848 -crashHelper 6 -crashReporter 7 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appDir /usr/lib/firefox/browser 12 tab
+  26279   25938 tt       Sl   Isolated Web Co /usr/lib/firefox/firefox-bin -contentproc -isForBrowser -prefsHandle 0:50556 -prefMapHandle 1:308257 -jsInitHandle 2:161360 -parentBuildID 20261104181552 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {4f4566fe-80b4-49cd-9c83-e441810f6b62} -parentPid 25843 -crashHelperPid 25848 -crashHelper 6 -crashReporter 7 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appDir /usr/lib/firefox/browser 13 tab
+  26308   25938 tt       Sl   Isolated Web Co /usr/lib/firefox/firefox-bin -contentproc -isForBrowser -prefsHandle 0:50556 -prefMapHandle 1:308257 -jsInitHandle 2:161360 -parentBuildID 20261104181552 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {cf2abbad-9ba7-45de-acae-146dac09c4c4} -parentPid 25843 -crashHelperPid 25848 -crashHelper 6 -crashReporter 7 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appDir /usr/lib/firefox/browser 14 tab
+  26398   25938 tt       Sl   Isolated Web Co /usr/lib/firefox/firefox-bin -contentproc -isForBrowser -prefsHandle 0:50556 -prefMapHandle 1:308257 -jsInitHandle 2:161360 -parentBuildID 20261104181552 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {94911d08-9bca-4ddb-af83-f05526ebc08b} -parentPid 25843 -crashHelperPid 25848 -crashHelper 6 -crashReporter 7 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appDir /usr/lib/firefox/browser 15 tab
+  26539   25938 tt       Sl   Isolated Web Co /usr/lib/firefox/firefox-bin -contentproc -isForBrowser -prefsHandle 0:50556 -prefMapHandle 1:308257 -jsInitHandle 2:161360 -parentBuildID 20261104181552 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {82e9e9ae-d61c-4b24-a5f9-b6ebb10d6aab} -parentPid 25843 -crashHelperPid 25848 -crashHelper 6 -crashReporter 7 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appDir /usr/lib/firefox/browser 16 tab
+  26545   25938 tt       Sl   Isolated Web Co /usr/lib/firefox/firefox-bin -contentproc -isForBrowser -prefsHandle 0:50556 -prefMapHandle 1:308257 -jsInitHandle 2:161360 -parentBuildID 20261104181552 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {a0f355c1-13ff-4d6f-9a15-26ed2f050977} -parentPid 25843 -crashHelperPid 25848 -crashHelper 6 -crashReporter 7 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appDir /usr/lib/firefox/browser 17 tab
+  26548   25938 tt       Sl   Isolated Web Co /usr/lib/firefox/firefox-bin -contentproc -isForBrowser -prefsHandle 0:50556 -prefMapHandle 1:308257 -jsInitHandle 2:161360 -parentBuildID 20261104181552 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {6280200b-db8c-4225-842e-ad7798e8aaac} -parentPid 25843 -crashHelperPid 25848 -crashHelper 6 -crashReporter 7 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appDir /usr/lib/firefox/browser 18 tab
+  26626       2 root     I    kworker/0:1-cgr [kworker/0:1-cgroup_free]
+  26652   25938 tt       Sl   Isolated Web Co /usr/lib/firefox/firefox-bin -contentproc -isForBrowser -prefsHandle 0:50556 -prefMapHandle 1:308257 -jsInitHandle 2:161360 -parentBuildID 20261104181552 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {8bdcba1b-950d-4a1a-aa11-1632f7fb38db} -parentPid 25843 -crashHelperPid 25848 -crashHelper 6 -crashReporter 7 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appDir /usr/lib/firefox/browser 19 tab
+  26706   25938 tt       Sl   Isolated Web Co /usr/lib/firefox/firefox-bin -contentproc -isForBrowser -prefsHandle 0:50556 -prefMapHandle 1:308257 -jsInitHandle 2:161360 -parentBuildID 20261104181552 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {03af10ef-43bd-4328-a57b-ca9a715e74c4} -parentPid 25843 -crashHelperPid 25848 -crashHelper 6 -crashReporter 7 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appDir /usr/lib/firefox/browser 20 tab
+  26802   25938 tt       Sl   Web Content     /usr/lib/firefox/firefox-bin -contentproc -isForBrowser -prefsHandle 0:50556 -prefMapHandle 1:308257 -jsInitHandle 2:161360 -parentBuildID 20261104181552 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {07f41dab-3e0f-41cf-b405-41f071f17404} -parentPid 25843 -crashHelperPid 25848 -crashHelper 6 -crashReporter 7 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appDir /usr/lib/firefox/browser 21 tab
+  26977   25938 tt       Sl   Web Content     /usr/lib/firefox/firefox-bin -contentproc -isForBrowser -prefsHandle 0:50556 -prefMapHandle 1:308257 -jsInitHandle 2:161360 -parentBuildID 20261104181552 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {a2cac2a4-1f72-4c98-a8b3-4324ec7d03ac} -parentPid 25843 -crashHelperPid 25848 -crashHelper 6 -crashReporter 7 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appDir /usr/lib/firefox/browser 22 tab
+  27025   25938 tt       Sl   Web Content     /usr/lib/firefox/firefox-bin -contentproc -isForBrowser -prefsHandle 0:50556 -prefMapHandle 1:308257 -jsInitHandle 2:161360 -parentBuildID 20261104181552 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {c7c6879c-3ce3-4faa-a556-af9b9bbe9fbf} -parentPid 25843 -crashHelperPid 25848 -crashHelper 6 -crashReporter 7 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appDir /usr/lib/firefox/browser 23 tab
+  27115       2 root     I    kworker/8:0-cgr [kworker/8:0-cgroup_release]
+  27184       2 root     I    kworker/u49:9-b [kworker/u49:9-btrfs-endio]
+  27250       2 root     I    kworker/10:1    [kworker/10:1]
+  27439       2 root     I    kworker/u49:3-f [kworker/u49:3-flush-btrfs-1]
+  27446       2 root     I    kworker/u50:2-b [kworker/u50:2-btrfs-endio-write]
+  27452       2 root     I    kworker/u50:7-b [kworker/u50:7-btrfs-endio-write]
+  27499       2 root     I    kworker/6:2-eve [kworker/6:2-events]
+  27534       2 root     I    kworker/u49:7-f [kworker/u49:7-flush-btrfs-1]
+  27667       2 root     I    kworker/u50:9-b [kworker/u50:9-btrfs-endio-write]
+  27669       2 root     I    kworker/u50:11- [kworker/u50:11-btrfs-delalloc]
+  27712       2 root     I    kworker/2:1-eve [kworker/2:1-events]
+  27982       2 root     I    kworker/7:3-cgr [kworker/7:3-cgroup_free]
+  27995       2 root     I    kworker/u50:0-f [kworker/u50:0-flush-btrfs-1]
+  28123       2 root     I    kworker/u49:0-e [kworker/u49:0-events_unbound]
+  28187       2 root     I    kworker/u50:5-e [kworker/u50:5-events_unbound]
+  28274       2 root     I    kworker/4:2-eve [kworker/4:2-events]
+  28290       2 root     I    kworker/2:0-eve [kworker/2:0-events]
+  28447   12895 tt       Sl+  chrome          /snap/chromium/3569/usr/lib/chromium-browser/chrome --type=renderer --crashpad-handler-pid=12886 --enable-crash-reporter=,snap --change-stack-guard-on-fork=enable --ozone-platform=wayland --disable-gpu-compositing --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=105 --launch-time-ticks=17762549853 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,13573736708480381139,7517892530263634679,1572864 --field-trial-handle=3,i,14977191551461394096,243806050063046994,262144 --disable-features=TFLiteLanguageDetectionEnabled --variations-seed-version --pseudonymization-salt-handle=7,i,1011509191959354801,12932923309203553010,4 --trace-process-track-uuid=3190709084701265639
+  28479   12895 tt       Sl+  chrome          /snap/chromium/3569/usr/lib/chromium-browser/chrome --type=renderer --crashpad-handler-pid=12886 --enable-crash-reporter=,snap --change-stack-guard-on-fork=enable --ozone-platform=wayland --disable-gpu-compositing --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=108 --launch-time-ticks=17769403650 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,13871367385423181046,6773460666307197463,1572864 --field-trial-handle=3,i,14977191551461394096,243806050063046994,262144 --disable-features=TFLiteLanguageDetectionEnabled --variations-seed-version --pseudonymization-salt-handle=7,i,1011509191959354801,12932923309203553010,4 --trace-process-track-uuid=3190709087512391186
+  28499       2 root     I    kworker/u50:1-b [kworker/u50:1-btrfs-endio-write]
+  28502       2 root     I    kworker/u50:3-b [kworker/u50:3-btrfs-delalloc]
+  28523       2 root     I    kworker/u50:6-f [kworker/u50:6-flush-btrfs-1]
+  28560       2 root     I    kworker/u50:8-b [kworker/u50:8-btrfs-endio-write]
+  28561       2 root     I    kworker/u50:10- [kworker/u50:10-btrfs-endio-write]
+  28580       2 root     I    kworker/u49:10- [kworker/u49:10-btrfs-endio]
+  28582    1673 root     S    sleep           sleep 3600
+  28604       2 root     I    kworker/1:1     [kworker/1:1]
+  28661   23034 tt       S+   bash            bash ./tmp_diag_0.sh
+  28664   28661 tt       S+   tee             tee -a /home/tt/audio-diagnostics/20261113_172155/summary.txt
+  28705   28661 tt       R+   ps              ps -eo pid,ppid,user,stat,comm,args --sort=pid

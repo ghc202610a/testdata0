@@ -1,0 +1,7 @@
+**** List of CAPTURE Hardware Devices ****
+card 0: Generic [HD-Audio Generic], device 0: ALC1220 Analog [ALC1220 Analog]
+  Subdevices: 1/1
+  Subdevice #0: subdevice #0
+card 0: Generic [HD-Audio Generic], device 2: ALC1220 Alt Analog [ALC1220 Alt Analog]
+  Subdevices: 1/1
+  Subdevice #0: subdevice #0

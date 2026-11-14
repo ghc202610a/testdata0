@@ -1,0 +1,257 @@
+
+
+========================================
+SYSTEM INFORMATION
+========================================
+2026-11-13T17:21:55-08:00
+ku36
+Linux ku36 7.0.0-43-generic #43-Ubuntu SMP PREEMPT_DYNAMIC Fri Oct 23 13:25:25 UTC 2026 x86_64 GNU/Linux
+uid=1000(tt) gid=1000(tt) groups=1000(tt),4(adm),20(dialout),21(fax),22(voice),24(cdrom),27(sudo),29(audio),30(dip),44(video),46(plugdev),111(lpadmin),975(libvirt),976(sambashare)
+Report directory: /home/tt/audio-diagnostics/20261113_172155
+Capture duration: 5 seconds
+
+
+========================================
+SOFTWARE VERSIONS
+========================================
+arecord: /usr/bin/arecord
+aplay: /usr/bin/aplay
+amixer: /usr/bin/amixer
+alsactl: /usr/sbin/alsactl
+wpctl: /usr/bin/wpctl
+pw-cli: /usr/bin/pw-cli
+pw-dump: /usr/bin/pw-dump
+pw-record: /usr/bin/pw-record
+pactl: /usr/bin/pactl
+python3: /usr/bin/python3
+timeout: /usr/bin/timeout
+
+
+========================================
+ALSA DEVICE ENUMERATION
+========================================
+
+COMMAND: cat /proc/asound/cards
+Exit status: 0
+Output: /home/tt/audio-diagnostics/20261113_172155/alsa_cards.txt
+
+COMMAND: cat /proc/asound/pcm
+Exit status: 0
+Output: /home/tt/audio-diagnostics/20261113_172155/alsa_pcm.txt
+
+COMMAND: arecord -l
+Exit status: 0
+Output: /home/tt/audio-diagnostics/20261113_172155/alsa_capture_devices.txt
+
+COMMAND: aplay -l
+Exit status: 0
+Output: /home/tt/audio-diagnostics/20261113_172155/alsa_playback_devices.txt
+
+COMMAND: arecord -L
+Exit status: 0
+Output: /home/tt/audio-diagnostics/20261113_172155/alsa_pcm_names.txt
+
+
+========================================
+ALSA MIXER CONFIGURATION
+========================================
+
+COMMAND: amixer -c 0 contents
+Exit status: 0
+Output: /home/tt/audio-diagnostics/20261113_172155/mixer_contents.txt
+
+COMMAND: amixer -c 0 scontents
+Exit status: 0
+Output: /home/tt/audio-diagnostics/20261113_172155/mixer_simple_controls.txt
+Saving current ALSA state to report directory.
+
+
+========================================
+REALTEK CODEC INFORMATION
+========================================
+Saved /proc/asound/card0/codec#0
+
+
+========================================
+PIPEWIRE STATUS
+========================================
+
+COMMAND: wpctl status -n
+Exit status: 0
+Output: /home/tt/audio-diagnostics/20261113_172155/wpctl_status.txt
+
+COMMAND: pw-cli ls Node
+Exit status: 0
+Output: /home/tt/audio-diagnostics/20261113_172155/pipewire_nodes.txt
+
+COMMAND: pw-cli ls Module
+Exit status: 0
+Output: /home/tt/audio-diagnostics/20261113_172155/pipewire_modules.txt
+
+COMMAND: pw-dump
+Exit status: 0
+Output: /home/tt/audio-diagnostics/20261113_172155/pipewire_dump.json
+
+
+========================================
+PULSE COMPATIBILITY INTERFACE
+========================================
+
+COMMAND: pactl list short sinks
+Exit status: 0
+Output: /home/tt/audio-diagnostics/20261113_172155/pactl_sinks.txt
+
+COMMAND: pactl list short sources
+Exit status: 0
+Output: /home/tt/audio-diagnostics/20261113_172155/pactl_sources.txt
+
+COMMAND: pactl list short sink-inputs
+Exit status: 0
+Output: /home/tt/audio-diagnostics/20261113_172155/pactl_sink_inputs.txt
+
+COMMAND: pactl list short source-outputs
+Exit status: 0
+Output: /home/tt/audio-diagnostics/20261113_172155/pactl_source_outputs.txt
+
+
+========================================
+PROCESSES
+========================================
+
+
+========================================
+KERNEL AUDIO MODULES
+========================================
+snd_seq_dummy          12288  0
+snd_hrtimer            12288  1
+snd_hda_codec_alc882    20480  1
+snd_hda_codec_realtek_lib    65536  1 snd_hda_codec_alc882
+snd_hda_codec_generic   126976  2 snd_hda_codec_realtek_lib,snd_hda_codec_alc882
+snd_hda_intel          65536  1
+snd_hda_codec         212992  4 snd_hda_codec_generic,snd_hda_intel,snd_hda_codec_realtek_lib,snd_hda_codec_alc882
+snd_hda_core          151552  4 snd_hda_codec_generic,snd_hda_intel,snd_hda_codec,snd_hda_codec_realtek_lib
+snd_intel_dspcfg       45056  1 snd_hda_intel
+snd_intel_sdw_acpi     16384  1 snd_intel_dspcfg
+snd_hwdep              24576  1 snd_hda_codec
+snd_pcm               212992  3 snd_hda_intel,snd_hda_codec,snd_hda_core
+snd_seq_midi           24576  0
+snd_seq_midi_event     16384  1 snd_seq_midi
+snd_rawmidi            57344  1 snd_seq_midi
+snd_seq               126976  9 snd_seq_midi,snd_seq_midi_event,snd_seq_dummy
+snd_seq_device         16384  3 snd_seq,snd_seq_midi,snd_rawmidi
+snd_timer              53248  3 snd_seq,snd_hrtimer,snd_pcm
+snd                   147456  14 snd_hda_codec_generic,snd_seq,snd_seq_device,snd_hwdep,snd_hda_intel,snd_hda_codec,snd_timer,snd_hda_codec_realtek_lib,snd_pcm,snd_rawmidi
+soundcore              16384  1 snd
+
+
+========================================
+DIRECT AND INDIRECT ALSA CAPTURE TESTS
+========================================
+
+Testing: default
+Exit status: 0
+Captured bytes: 960000
+
+Testing: pipewire
+Exit status: 0
+Captured bytes: 960000
+
+Testing: hw:CARD=Generic,DEV=0
+Exit status: 1
+Captured bytes: 0
+
+Testing: hw:CARD=Generic,DEV=2
+Exit status: 0
+Captured bytes: 960000
+
+
+========================================
+PCM ANALYSIS
+========================================
+
+=======================================================
+capture_default.s16le
+Bytes: 960000
+
+Channel: 1
+Peak: 2233 dBFS: -23.33
+RMS: 505.51 dBFS: -36.23
+Near-full-scale samples: 0
+Large adjacent transitions: 0
+
+Channel: 2
+Peak: 2221 dBFS: -23.38
+RMS: 511.04 dBFS: -36.14
+Near-full-scale samples: 0
+Large adjacent transitions: 0
+
+NOTE: Large transitions are a screening statistic, not proof of impulsive interference.
+
+=======================================================
+capture_hw_dev2.s16le
+Bytes: 960000
+
+Channel: 1
+Peak: 2496 dBFS: -22.36
+RMS: 481.23 dBFS: -36.66
+Near-full-scale samples: 0
+Large adjacent transitions: 0
+
+Channel: 2
+Peak: 2512 dBFS: -22.31
+RMS: 490.22 dBFS: -36.50
+Near-full-scale samples: 0
+Large adjacent transitions: 0
+
+NOTE: Large transitions are a screening statistic, not proof of impulsive interference.
+
+=======================================================
+capture_pipewire.s16le
+Bytes: 960000
+
+Channel: 1
+Peak: 2359 dBFS: -22.85
+RMS: 501.24 dBFS: -36.31
+Near-full-scale samples: 0
+Large adjacent transitions: 0
+
+Channel: 2
+Peak: 2429 dBFS: -22.60
+RMS: 504.43 dBFS: -36.25
+Near-full-scale samples: 0
+Large adjacent transitions: 0
+
+NOTE: Large transitions are a screening statistic, not proof of impulsive interference.
+
+
+========================================
+CAPTURE SUMMARY
+========================================
+capture_default           exit=0 bytes=960000
+capture_hw_dev0           exit=1 bytes=0
+capture_hw_dev2           exit=0 bytes=960000
+capture_pipewire          exit=0 bytes=960000
+
+
+========================================
+REPORT COMPLETE
+========================================
+Report location:
+/home/tt/audio-diagnostics/20261113_172155
+
+Important files:
+  mixer_contents.txt
+  mixer_simple_controls.txt
+  pipewire_nodes.txt
+  pipewire_modules.txt
+  wpctl_status.txt
+  audio_processes.txt
+  sound_modules.txt
+  capture_hw_dev0.log
+  capture_hw_dev2.log
+
+Creating compressed archive...
+Archive:
+/home/tt/audio-diagnostics/20261113_172155.tar.gz
+
+Finished.

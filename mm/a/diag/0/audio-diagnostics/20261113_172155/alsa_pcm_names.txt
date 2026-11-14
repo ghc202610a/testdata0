@@ -1,0 +1,30 @@
+null
+    Discard all samples (playback) or generate zero samples (capture)
+pipewire
+    PipeWire Sound Server
+default
+    Default ALSA Output (currently PipeWire Media Server)
+hw:CARD=Generic,DEV=0
+    HD-Audio Generic, ALC1220 Analog
+    Direct hardware device without any conversions
+hw:CARD=Generic,DEV=2
+    HD-Audio Generic, ALC1220 Alt Analog
+    Direct hardware device without any conversions
+plughw:CARD=Generic,DEV=0
+    HD-Audio Generic, ALC1220 Analog
+    Hardware device with all software conversions
+plughw:CARD=Generic,DEV=2
+    HD-Audio Generic, ALC1220 Alt Analog
+    Hardware device with all software conversions
+sysdefault:CARD=Generic
+    HD-Audio Generic, ALC1220 Analog
+    Default Audio Device
+front:CARD=Generic,DEV=0
+    HD-Audio Generic, ALC1220 Analog
+    Front output / input
+dsnoop:CARD=Generic,DEV=0
+    HD-Audio Generic, ALC1220 Analog
+    Direct sample snooping device
+dsnoop:CARD=Generic,DEV=2
+    HD-Audio Generic, ALC1220 Alt Analog
+    Direct sample snooping device

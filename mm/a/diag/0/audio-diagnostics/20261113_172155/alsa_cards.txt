@@ -1,0 +1,2 @@
+ 0 [Generic        ]: HDA-Intel - HD-Audio Generic
+                      HD-Audio Generic at 0xfba00000 irq 72

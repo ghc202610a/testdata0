@@ -1,0 +1,2 @@
+74	55	73	PipeWire	float32le 2ch 44100Hz
+747	55	746	PipeWire	s16le 1ch 44100Hz

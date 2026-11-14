@@ -1,0 +1,3 @@
+00-00: ALC1220 Analog : ALC1220 Analog : playback 1 : capture 1
+00-01: ALC1220 Digital : ALC1220 Digital : playback 1
+00-02: ALC1220 Alt Analog : ALC1220 Alt Analog : capture 1
